@@ -116,16 +116,16 @@ body {
 }
   
   /* About Section */
-  .about {
+  .about-us {
     padding: 50px 0;
     text-align: center;
   }
   
-  .about h2 {
+  .about-us h2 {
     margin-bottom: 20px;
   }
   
-  .about .btn {
+  .about-us .btn {
     background: #27ae60;
     color: #fff;
     padding: 10px 20px;
@@ -168,7 +168,13 @@ body {
     padding: 20px;
     margin: 20px 0;
     border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .program-card:hover {
+    transform: scale(1.05); /* Scale up on hover */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
   }
   
   .program-card h3 {
